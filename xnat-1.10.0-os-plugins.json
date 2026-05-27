@@ -1,105 +1,16 @@
 {
-  "repo": "ssh://git@bitbucket.org/xnatdev/xnat-web",
-  "version": "1.10.0",
-  "plugins": [
-    {
-      "package": "ohif-viewer-XNAT-plugin",
-      "repository": {
-        "host": "bitbucket",
-        "url": "https://bitbucket.org/icrimaginginformatics/ohif-viewer-XNAT-plugin.git"
-      },
-      "version": "3.8.1",
-      "file": "https://api.bitbucket.org/2.0/repositories/xnatdev/container-service/downloads/container-service-3.8.1-fat.jar"
-    },
-    {
-      "package": "container-service",
-      "repository": {
-        "host": "bitbucket",
-        "url": "https://bitbucket.org/xnatdev/container-service.git"
-      },
-      "version": "3.8.1",
-      "file": "https://api.bitbucket.org/2.0/repositories/xnatdev/container-service/downloads/container-service-3.8.1-fat.jar"
-    },
-    {
-      "package": "xnatx-batch-launch-plugin",
-      "repository": {
-        "host": "bitbucket",
-        "url": "https://bitbucket.org/xnatx/xnatx-batch-launch-plugin.git"
-      },
-      "version": "0.9.0",
-      "file": "https://api.bitbucket.org/2.0/repositories/xnatx/xnatx-batch-launch-plugin/downloads/batch-launch-0.9.0.jar"
-    },
-    {
-      "package": "xnat-jupyterhub-plugin",
-      "repository": {
-        "host": "github",
-        "url": "https://github.com/NrgXnat/xnat-jupyterhub-plugin.git"
-      },
-      "version": "v1.3.4",
-      "file": "https://github.com/NrgXnat/xnat-jupyterhub-plugin/releases/download/v1.3.4/xnat-jupyterhub-plugin-1.3.4.jar"
-    },
-    {
-      "package": "ldap-auth-plugin",
-      "repository": {
-        "host": "bitbucket",
-        "url": "https://bitbucket.org/xnatx/ldap-auth-plugin.git"
-      },
-      "version": "1.3.0",
-      "file": "https://api.bitbucket.org/2.0/repositories/xnatx/ldap-auth-plugin/downloads/ldap-auth-plugin-1.3.0.jar"
-    },
-    {
-      "package": "openid-auth-plugin",
-      "repository": {
-        "host": "bitbucket",
-        "url": "https://bitbucket.org/xnatx/ldap-auth-plugin.git"
-      },
-      "version": "1.5.0",
-      "file": "https://api.bitbucket.org/2.0/repositories/xnatx/ldap-auth-plugin/downloads/ldap-auth-plugin-1.3.0.jar"
-    },
-    {
-      "package": "dicom-query-retrieve",
-      "repository": {
-        "host": "bitbucket",
-        "url": "https://bitbucket.org/xnatdev/dicom-query-retrieve.git"
-      },
-      "version": "3.0.0",
-      "file": "https://api.bitbucket.org/2.0/repositories/xnatdev/dicom-query-retrieve/downloads/dicom-query-retrieve-3.0.0-xpl.jar"
-    },
-    {
-      "package": "xsync",
-      "repository": {
-        "host": "bitbucket",
-        "url": "https://bitbucket.org/xnatdev/xsync.git"
-      },
-      "version": "1.8.1",
-      "file": "https://api.bitbucket.org/2.0/repositories/xnatdev/xsync/downloads/xsync-plugin-all-1.8.1.jar"
-    },
-    {
-      "package": "mfa-plugin",
-      "repository": {
-        "host": "bitbucket",
-        "url": "https://bitbucket.org/xnatx/mfa_plugin.git"
-      },
-      "version": "1.5.0",
-      "file": "https://api.bitbucket.org/2.0/repositories/xnatx/mfa_plugin/downloads/mfa-plugin-1.5.0-xpl.jar"
-    },
-    {
-      "package": "dist-events",
-      "repository": {
-        "host": "bitbucket",
-        "url": "https://bitbucket.org/xnatx/dist-events.git"
-      },
-      "version": "2.0.0",
-      "file": "https://api.bitbucket.org/2.0/repositories/xnatx/dist-events/downloads/dist-events-2.0.0-xpl.jar"
-    },
-    {
-      "package": "pixi",
-      "repository": {
-        "host": "github",
-        "url": "https://github.com/preclinical-imaging/pixi-plugin.git"
-      },
-      "version": "1.5.0",
-      "file": "https://github.com/preclinical-imaging/pixi-plugin/releases/download/v1.5.0/pixi-plugin-1.5.0.jar"
-    }
-  ]
+  "versions": {
+    "ohif-viewer-XNAT-plugin": "3.8.1",
+    "container-service": "3.8.1",
+    "xnatx-batch-launch-plugin": "0.9.0",
+    "xnat-jupyterhub-plugin": "1.3.4",
+    "ldap-auth-plugin": "1.3.0",
+    "openid-auth-plugin": "1.5.0",
+    "dicom-query-retrieve": "3.0.0",
+    "xsync": "1.8.1",
+    "mfa-plugin": "1.5.0",
+    "dist-events": "2.0.0",
+    "pixi-plugin": "1.5.0",
+    "pipeline-engine-plugin": "1.2.0"
+  }
 }
