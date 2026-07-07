@@ -1,100 +1,137 @@
 {
     "packages": [
         {
-            "package": "ohif-viewer-xnat-plugin",
-            "repository": {
-                "host": "bitbucket",
-                "url": "https://bitbucket.org/icrimaginginformatics/ohif-viewer-XNAT-plugin"
-            },
-            "fileUri": "https://xnat.org/files/ohif-viewer-xnat-plugin/ohif-viewer-$VERSION-fat.jar"
+            "package": "batch-launch-plugin",
+            "title": "Batch Launch Plugin",
+            "description": "The Batch Launch plugin is a companion to the Container Service and allows you to launch containers or pipelines in batches based on project listings or search listings of XNAT data.",
+            "links": {
+                "source": "https://github.com/NrgXnat/batch-launch-plugin",
+                "documentation": "https://wiki.xnat.org/xnat-tools/batch-launch-plugin"
+            }
+        },
+        {
+            "package": "batch-transfer-plugin",
+            "title": "Batch Transfer Plugin",
+            "description": "Bulk data operations across XNAT projects — Share, Clone, or Reimport subjects, sessions, and assessors in a single batch from one screen",
+            "links": {
+                "source": "https://github.com/NrgXnat/batch-transfer-plugin",
+                "documentation": "https://github.com/NrgXnat/batch-transfer-plugin/blob/main/README.md"
+            }
         },
         {
             "package": "container-service",
-            "repository": {
-                "host": "bitbucket",
-                "url": "https://bitbucket.org/xnatdev/container-service"
-            },
-            "fileUri": "https://api.bitbucket.org/2.0/repositories/xnatdev/container-service/downloads/container-service-$VERSION-fat.jar"
-        },
-        {
-            "package": "xnatx-batch-launch-plugin",
-            "repository": {
-                "host": "bitbucket",
-                "url": "https://bitbucket.org/xnatx/xnatx-batch-launch-plugin"
-            },
-            "fileUri": "https://api.bitbucket.org/2.0/repositories/xnatx/xnatx-batch-launch-plugin/downloads/batch-launch-$VERSION.jar"
-        },
-        {
-            "package": "xnat-jupyterhub-plugin",
-            "repository": {
-                "host": "github",
-                "url": "https://github.com/NrgXnat/xnat-jupyterhub-plugin"
-            },
-            "fileUri": "https://github.com/NrgXnat/xnat-jupyterhub-plugin/releases/download/v$VERSION/xnat-jupyterhub-plugin-$VERSION.jar"
-        },
-        {
-            "package": "ldap-auth-plugin",
-            "repository": {
-                "host": "bitbucket",
-                "url": "https://bitbucket.org/xnatx/ldap-auth-plugin"
-            },
-            "fileUri": "https://api.bitbucket.org/2.0/repositories/xnatx/ldap-auth-plugin/downloads/ldap-auth-plugin-$VERSION.jar"
-        },
-        {
-            "package": "openid-auth-plugin",
-            "repository": {
-                "host": "bitbucket",
-                "url": "https://bitbucket.org/xnatx/ldap-auth-plugin"
-            },
-            "fileUri": "https://api.bitbucket.org/2.0/repositories/xnatx/ldap-auth-plugin/downloads/ldap-auth-plugin-$VERSION.jar"
+            "title": "Container Service",
+            "description": "The Container Service plugin allows you to execute external processing tools as lightweight containers, mounting and reading XNAT data, then posting outputs back to your XNAT project.",
+            "links": {
+                "source": "https://github.com/NrgXnat/container-service",
+                "documentation": "https://wiki.xnat.org/container-service/"
+            }
         },
         {
             "package": "dicom-query-retrieve",
-            "repository": {
-                "host": "bitbucket",
-                "url": "https://bitbucket.org/xnatdev/dicom-query-retrieve"
-            },
-            "fileUri": "https://api.bitbucket.org/2.0/repositories/xnatdev/dicom-query-retrieve/downloads/dicom-query-retrieve-$VERSION-xpl.jar"
-        },
-        {
-            "package": "xsync",
-            "repository": {
-                "host": "bitbucket",
-                "url": "https://bitbucket.org/xnatdev/xsync"
-            },
-            "fileUri": "https://api.bitbucket.org/2.0/repositories/xnatdev/xsync/downloads/xsync-plugin-all-$VERSION.jar"
-        },
-        {
-            "package": "mfa-plugin",
-            "repository": {
-                "host": "bitbucket",
-                "url": "https://bitbucket.org/xnatx/mfa_plugin"
-            },
-            "fileUri": "https://api.bitbucket.org/2.0/repositories/xnatx/mfa_plugin/downloads/mfa-plugin-$VERSION-xpl.jar"
+            "title": "DICOM Query-Retrieve (DQR) Plugin",
+            "description": "The DQR plugin allows XNAT administrators to configure a PACS connection that allows users to query that PACS and retrieve and/or store DICOM image sessions.",
+            "links": {
+                "source": "https://github.com/NrgXnat/dicom-query-retrieve",
+                "documentation": "https://wiki.xnat.org/xnat-tools/dicom-query-retrieve-plugin"
+            }
         },
         {
             "package": "dist-events",
-            "repository": {
-                "host": "bitbucket",
-                "url": "https://bitbucket.org/xnatx/dist-events"
-            },
-            "fileUri": "https://api.bitbucket.org/2.0/repositories/xnatx/dist-events/downloads/dist-events-$VERSION-xpl.jar"
+            "title": "Distributed Events Plugin",
+            "description": "The Distributed Events plugin for load-balanced XNAT systems enables real-time data updates across all load-balanced XNAT front-end servers.",
+            "links": {
+                "source": "https://github.com/NrgXnat/dist-events",
+                "documentation": "https://wiki.xnat.org/xnat-tools/distributed-events-plugin"
+            }
+        },
+        {
+            "package": "dxm-settings",
+            "title": "Desktop Client Settings Plugin",
+            "description": "Simple add-on exposing project-level settings for using the XNAT Desktop Client",
+            "links": {
+                "source": "https://github.com/NrgXnat/dxm-settings-plugin"
+            }
+        },
+        {
+            "package": "ldap-auth-plugin",
+            "title": "LDAP Authentication Plugin",
+            "description": "The LDAP Authentication plugin provides the ability to use one or more LDAP servers to handle your XNAT user authentication and login.",
+            "links": {
+                "source": "https://github.com/NrgXnat/ldap-auth-plugin",
+                "documentation": "https://wiki.xnat.org/documentation/xnat-administration/configuring-authentication-providers"
+            }
+        },
+        {
+            "package": "ldap-sync-plugin",
+            "title": "LDAP Authorization Sync Plugin",
+            "description": "The XNAT LDAP Sync plugin allows remote LDAP systems to manage XNAT project authorizations for its managed user base",
+            "links": {
+                "source": "https://github.com/NrgXnat/ldap-sync-plugin"
+            }
+        },
+        {
+            "package": "mfa-plugin",
+            "title": "XNAT MFA Plugin",
+            "description": "The MFA plugin for XNAT allows you to require multi-factor authentication for your users, using either Google Authenticator or a one-time passcode (OTP) sent to your email.",
+            "links": {
+                "source": "https://github.com/NrgXnat/mfa-plugin",
+                "documentation": "https://wiki.xnat.org/xnat-tools/mfa-multifactor-authentication-plugin-for-xnat"
+            }
+        },
+        {
+            "package": "ohif-viewer-xnat-plugin",
+            "title": "XNAT OHIF Viewer",
+            "description": "The XNAT OHIF Viewer allows users to view, create and edit ROI collections and annotations on XNAT image sessions. This viewer was developed by the Institute for Cancer Research, London and is based on the Javascript-based OHIF Viewer.",
+            "links": {
+                "source": "https://github.com/xnatworks/ohif-viewer-xnat-plugin",
+                "documentation": "https://wiki.xnat.org/documentation/xnat-ohif-viewer"
+            }
+        },
+        {
+            "package": "openid-auth-plugin",
+            "title": "OpenID Authentication Plugin",
+            "description": "The OpenID Authentication plugin provides the ability to use one or more OpenID servers to handle your XNAT user authentication and login.",
+            "links": {
+                "source": "https://github.com/NrgXnat/openid-auth-plugin",
+                "documentation": "https://wiki.xnat.org/documentation/xnat-administration/configuring-authentication-providers"
+            }
         },
         {
             "package": "pixi",
-            "repository": {
-                "host": "github",
-                "url": "https://github.com/preclinical-imaging/pixi-plugin"
-            },
-            "fileUri": "https://github.com/preclinical-imaging/pixi-plugin/releases/download/v$VERSION/pixi-plugin-$VERSION.jar"
+            "title": "Preclinical Imaging XNAT (PIXI) Plugin",
+            "description": "The PIXI plugin adds support for hosting preclinical imaging and tracking animal subjects and preclinical disease research phenotypes",
+            "links": {
+                "source": "https://github.com/preclinical-imaging/pixi-plugin",
+                "documentation": "https://pixi-documentation.readthedocs.io/en/stable/index.html"
+            }
         },
         {
             "package": "pipeline-engine-plugin",
-            "repository": {
-                "host": "bitbucket",
-                "url": "https://bitbucket.org/xnatx/pipeline_engine_plugin"
-            },
-            "fileUri": "https://api.bitbucket.org/2.0/repositories/xnatx/pipeline_engine_plugin/downloads/pipeline_engine_ui-$VERSION-xpl.jar"
+            "title": "Pipeline Engine Plugin",
+            "description": "The XNAT Pipeline Engine Plugin re-enables usage of the legacy Pipeline Engine on modern versions of XNAT",
+            "links": {
+                "source": "https://github.com/NrgXnat/pipeline-engine-plugin",
+                "documentation": "https://wiki.xnat.org/xnat-tools/"
+            }
+        },
+        {
+            "package": "xnat-jupyterhub-plugin",
+            "title": "JupyterHub Integration Plugin",
+            "description": "The JupyterHub Integration plugin allows your XNAT to connect to a running JupyterHub server and creates integration points for launching and saving Jupyter Notebooks.",
+            "links": {
+                "source": "https://github.com/NrgXnat/xnat-jupyterhub-plugin",
+                "documentation": "https://wiki.xnat.org/jupyter-integration"
+            }
+        },
+        {
+            "package": "xsync",
+            "title": "XNAT Project Sync (XSync)",
+            "description": "Xsync plugin enables automatic synchronization of data from a project in one XNAT system to a project in a second system. Xsync is configurable to ensure that only the desired data is delivered, and if required, data is properly de-identified, and that it is delivered on a pre-set schedule.",
+            "links": {
+                "source": "https://github.com/NrgXnat/xsync",
+                "documentation": "https://github.com/NrgXnat/xsync/blob/main/README.md"
+            }
         }
     ]
 }

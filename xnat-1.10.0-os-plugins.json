@@ -1,5 +1,6 @@
 {
   "versions": {
+    "batch-launch-plugin": "0.9.0",
     "container-service": "3.8.1",
     "dicom-query-retrieve": "3.0.0",
     "dist-events": "2.0.0",
@@ -9,7 +10,6 @@
     "ohif-viewer-xnat-plugin": "3.8.0",
     "pipeline-engine-plugin": "1.2.0",
     "pixi-plugin": "1.5.0",
-    "xnatx-batch-launch-plugin": "0.9.0",
     "xnat-jupyterhub-plugin": "1.3.4",
     "xsync": "1.8.1"
   }
