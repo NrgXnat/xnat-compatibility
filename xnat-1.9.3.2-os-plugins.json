@@ -10,7 +10,7 @@
     "ohif-viewer-xnat-plugin": "3.7.2",
     "pipeline-engine-plugin": "1.2.0",
     "pixi-plugin": "v1.5.0",
-    "xnat-jupyterhub-plugin": "1.3.3",
+    "xnat-jupyterhub-plugin": "v1.3.3",
     "xsync": "1.8.1"
   }
 }

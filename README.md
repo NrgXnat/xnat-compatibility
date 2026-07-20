@@ -21,7 +21,7 @@ The Downloads page then reaches out to this repository to match plugin versions 
     "ohif-viewer-xnat-plugin": "3.8.0",
     "pipeline-engine-plugin": "1.2.0",
     "pixi-plugin": "v1.5.0",
-    "xnat-jupyterhub-plugin": "1.3.4",
+    "xnat-jupyterhub-plugin": "v1.3.4",
     "xsync": "1.8.1"
   }
 }
