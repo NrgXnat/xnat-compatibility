@@ -1,7 +1,7 @@
 {
   "versions": {
     "batch-launch-plugin": "0.9.0",
-    "batch-transfer-plugin": "1.1.1",
+    "batch-transfer-plugin": "v1.1.1",
     "container-service": "3.8.0",
     "dicom-query-retrieve": "2.3.1",
     "dist-events": "1.2.2",
