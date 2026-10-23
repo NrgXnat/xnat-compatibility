@@ -4,7 +4,7 @@ The purpose of this repo is to create a maintable compatibility matrix for versi
 
 ## Usage
 
-The revised XNAT Downloads page populates its list of plugins from a master JSON file located within the [xnat-org repo](https://github.com/xnatworks/xnat-org). This file (`/_js/packages-os-plugins.json`) contains a set of plugin identifiers, which match the GitHub repo identifiers for each plugin repo. It also contains descriptive text and links. 
+The revised XNAT Downloads page populates its list of plugins from a master JSON file located within the [xnat-org repo](https://github.com/NrgXnat/xnat-org). This file (`/_js/packages-os-plugins.json`) contains a set of plugin identifiers, which match the GitHub repo identifiers for each plugin repo. It also contains descriptive text and links. 
 
 The Downloads page then reaches out to this repository to match plugin versions with a selected XNAT version. A query for all plugins that are supported by XNAT 1.10.0, for example, is listed in this repository in the `xnat-1.10.0-os-plugins.json` file. That listing simply contains a key-value pair matching the plugin identifier with the *latest supported version* of that plugin for that version of XNAT. For example:
 
